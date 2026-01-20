@@ -102,7 +102,7 @@ def run_all_available_scrapers() -> Dict:
 def run_enabled_scrapers() -> Dict:
     """Run only enabled scrapers (prothomalo and jagonews24)"""
     # Only these scrapers will run by default
-    ENABLED_SCRAPERS = ['prothomalo', 'jagonews24']
+    ENABLED_SCRAPERS = ['bbc']
     
     print("="*70)
     print("🚀 STARTING ENABLED NEWS SCRAPERS")
